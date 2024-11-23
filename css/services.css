@@ -1,0 +1,56 @@
+/* Styles specific to the services page */
+
+.services {
+    padding: 20px;
+    text-align: center; /* Center align sections */
+}
+
+.service-grid {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between items */
+}
+
+.service-item {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack emoji and text */
+    align-items: center; /* Center items */
+}
+
+.emoji {
+    font-size: 2em; /* Emoji size */
+    border: 2px solid #043c64;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.service-detail {
+    margin-bottom: 40px; /* Space between service sections */
+}
+
+.image-grid {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center images horizontally */
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    gap: 10px; /* Space between images */
+}
+
+.image-grid img {
+    max-width: 40%; /* Make images smaller */
+    max-height: 200px; /* Set a maximum height for images */
+    height: 100%; /* Set height to 100% to ensure uniformity */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+/* Additional styles for service sections */
+.service-detail h3 {
+    color: #043c64; /* Title color */
+    margin: 20px 0; /* Space above and below titles */
+}
+
+.service-detail p {
+    color: #333; /* Text color for descriptions */
+    margin-bottom: 15px; /* Space below paragraphs */
+} 

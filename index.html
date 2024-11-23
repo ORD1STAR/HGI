@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>HYDRO GLOBE INDUSTRIE</title>
+  </head>
+  <body>
+    <header>
+      <img src="Assets/logo.png" alt="Logo" style="margin-left: 20px" />
+      <!-- Navigation -->
+      <nav>
+        <div class="burger" id="burger-button">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="aboutme.html">À Propos</a></li>
+          <li><a href="services.html">Nos Services</a></li>
+          <li><a href="contact.html">Contactez-nous</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <div class="slider-container" id="slider-container">
+          <!-- Images will be loaded here by JavaScript -->
+        </div>
+        <button class="slider-arrow left-arrow" onclick="prevSlide()">
+          &#10094;
+        </button>
+        <button class="slider-arrow right-arrow" onclick="nextSlide()">
+          &#10095;
+        </button>
+      </section>
+
+      <section class="description">
+        <div class="full">
+          <div class="left">
+            <img src="Assets/photo_18.jpg" alt="">
+          </div>
+          
+          <div class="right">
+            <h2>Bienvenue chez</h2>
+        <h2 style="color: #36a9fa">HYDRO GLOBE INDUSTRIE</h2>
+            <p>
+              EURL HYDRO GLOBE INDUSTRIE, une entreprise algérienne 100% locale, est
+              votre partenaire de confiance pour le traitement et l'épuration des
+              eaux domestiques, industrielles et usées. 
+            </p>
+            <p>Que ce soit pour des besoins
+                en potabilisation, désinfection, ou réutilisation des eaux, nous
+                mettons à disposition des solutions sur-mesure adaptées aux exigences
+                spécifiques de divers secteurs. </p>
+            <p>Forts d’une
+                expertise technique et d’une équipe qualifiée, nous accompagnons vos
+                projets de bout en bout : études, fourniture, installation et
+                maintenance, pour garantir un service fiable et durable.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2 style="text-align: center">Nos Services <span>💧</span></h2>
+        <div class="service-grid">
+          <div class="service-item">
+            <span class="emoji">💧</span>
+            <h3>Traitement des Eaux</h3>
+            <p>
+              Solutions innovantes pour le traitement et la désinfection des
+              eaux.
+            </p>
+          </div>
+          <div class="service-item">
+            <span class="emoji">🚰</span>
+            <h3>Potabilisation</h3>
+            <p>Assurer l'accès à une eau potable de qualité pour tous.</p>
+          </div>
+          <div class="service-item">
+            <span class="emoji">♻️</span>
+            <h3>Recyclage des Eaux Usées</h3>
+            <p>Transformez les eaux usées en ressources réutilisables.</p>
+          </div>
+          <div class="service-item">
+            <span class="emoji">🔧</span>
+            <h3>Maintenance</h3>
+            <p>
+              Services de maintenance pour garantir le bon fonctionnement de vos
+              installations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        
+        <h2 class="button">Demandez un devis</h2>
+        <p style="font-size: 1.2em">
+          Si vous êtes intéressé par l'un de nos services, n'hésitez pas à nous
+          contacter. Notre équipe se rendra sur place pour discuter de vos
+          besoins spécifiques et procéder à une conception personnalisée. Suite
+          à cette visite, nous vous fournirons un devis détaillé, adapté à vos
+          exigences.
+        </p>
+        <img src="Assets/dev.jpg" alt="Devis" class="devis-image" />
+      </section>
+
+      <section class="location">
+        <h2>Notre Emplacement</h2>
+        <p>
+          Coopérative immobilière GRANITEX, Bloc 4 N°14, Bab Ezzouar, Algérie
+        </p>
+        <div class="map-container">
+          <iframe
+            width="100%"
+            height="450"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed/v1/place?q=HYDRO%20GLOBE%20INDUSTRIE&key=AIzaSyAbDeQHJWNmG23iouHiiYUZeGxqv3pkgvo"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">
+          <h3>Coordonnées</h3>
+          <p>Téléphone: +213 123 456 789</p>
+          <p>Email: contact@hydroglo.be</p>
+          <p>
+            Coopérative immobilière GRANITEX, Bloc 4 N°14, Bab Ezzouar, Algérie
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Liens Rapides</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="aboutme.html">À Propos</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copyright">
+        &copy; 2022 HYDRO GLOBE INDUSTRIE. Tous droits réservés.
+      </p>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
